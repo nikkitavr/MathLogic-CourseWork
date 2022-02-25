@@ -1,0 +1,3 @@
+2.25284e+34 solutions, 144 nodes.
+Solutions:
+

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ML_CourseWork"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\buddy\;CMake Files\external\buddy\src\;CMake Files\external\buddy\examples\;CMake Files\external\buddy\examples\adder\;CMake Files\external\buddy\examples\bddtest\;CMake Files\external\buddy\examples\cmilner\;CMake Files\external\buddy\examples\fdd\;CMake Files\external\buddy\examples\milner\;CMake Files\external\buddy\examples\money\;CMake Files\external\buddy\examples\queen\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ML_CourseWork">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/ML_CourseWork.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 ML_CourseWork"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ML_CourseWork/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/ML_CourseWork.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 ML_CourseWork/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bdd">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/libbdd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 bdd"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bdd/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/libbdd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 bdd/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="adder">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/adder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 adder"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="adder/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/adder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 adder/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/adder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bddtest">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/bddtest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 bddtest"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bddtest/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/bddtest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 bddtest/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/bddtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmilner">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/cmilner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 cmilner"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmilner/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/cmilner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 cmilner/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/cmilner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdd">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/fdd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 fdd"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdd/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/fdd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 fdd/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/fdd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="milner">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/milner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 milner"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="milner/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/milner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 milner/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/milner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="money">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/money.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 money"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="money/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/money.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 money/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/money/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queen">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/queen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 queen"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queen/fast">
+				<Option output="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/queen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 queen/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/examples/queen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/Utils.cpp">
+			<Option target="ML_CourseWork"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/Utils.h">
+			<Option target="ML_CourseWork"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/cmake-build-debug/bdd/src/config.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/adder/adder.cxx">
+			<Option target="adder"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/bddtest/bddtest.cxx">
+			<Option target="bddtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/cmilner/cmilner.c">
+			<Option target="cmilner"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/fdd/fdd.cxx">
+			<Option target="fdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/milner/milner.cxx">
+			<Option target="milner"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/money/money.cxx">
+			<Option target="money"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/queen/queen.cxx">
+			<Option target="queen"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/bdd.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/bddio.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/bddop.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/bddtree.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/bvec.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/bvec.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/cache.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/cache.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/cppext.cxx">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/fdd.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/fdd.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/imatrix.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/imatrix.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/kernel.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/kernel.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/pairs.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/prime.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/prime.h">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/reorder.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/tree.c">
+			<Option target="bdd"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/main.cpp">
+			<Option target="ML_CourseWork"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/config.h.in">
+			<Option virtualFolder="CMake Files\external\buddy\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/adder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\adder\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/bddtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\bddtest\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/cmilner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\cmilner\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/fdd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\fdd\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/milner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\milner\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/money/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\money\"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/ML_CourseWork/external/buddy/examples/queen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\buddy\examples\queen\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

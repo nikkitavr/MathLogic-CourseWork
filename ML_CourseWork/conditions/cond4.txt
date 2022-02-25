@@ -1,0 +1,8 @@
+Push new condition after <#> (5)
+ k1 j1 k2 j2
+# 1 6 1 7
+# 0 8 1 8
+# 1 7 3 2
+# 2 6 2 7
+# 0 0 0 7
+
